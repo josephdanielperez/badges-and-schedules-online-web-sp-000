@@ -27,5 +27,5 @@ def printer(attendees)
     conference_badges << "Hello, #{name}! You'll be assigned to room #{room_number}!"
     room_number += 1
   end
-  puts confrence_badges
+  puts conference_badges
 end
