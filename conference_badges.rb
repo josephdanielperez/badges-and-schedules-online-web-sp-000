@@ -21,11 +21,4 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  conference_badges = []
-  room_number = 1
-  attendees.each do |name|
-    conference_badges << "Hello, #{name}! You'll be assigned to room #{room_number}!"
-    room_number += 1
-  end
-  puts conference_badges
 end
